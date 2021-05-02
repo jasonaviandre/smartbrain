@@ -92,7 +92,7 @@ class App extends Component {
     .then(
         (response) => {
           if (response) {
-            fetch('https://hidden-bastion-15793.herokuapp.com:3000/image', {
+            fetch('https://hidden-bastion-15793.herokuapp.com/image', {
               method: 'put',
               headers: {'content-type': 'application/json'},
               body: JSON.stringify({
